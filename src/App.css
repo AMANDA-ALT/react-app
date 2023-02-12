@@ -1,5 +1,27 @@
+.Navbar ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #154fc4;
+}
+
+.Navbar a {
+  text-decoration: none;
+}
+
+.Navbar a:hover{
+  color: #61dafb;
+}
+
+
 .App {
+  background: linear-gradient(to right, #3744ca, #2196f3);
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .App-logo {
@@ -35,4 +57,12 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Footer {
+  background-color: black;
+  color: white;
+  padding: 25px;
+  text-align: center;
+  margin-top: 25px;
 }
