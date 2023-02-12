@@ -13,7 +13,8 @@ function Header() {
       </nav>
     </header>
     )
-}
+  }
+
 
 function Logo() {
   return (
